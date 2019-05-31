@@ -1,0 +1,156 @@
+#slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+#slider .slide .item {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#slider .slide .item img {
+    width: 100%;
+    height: 100%;
+}
+
+#slider .slide .item .cover {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#slider .slide .item .word {
+    position: absolute;
+    top: 30%;
+}
+
+#slider .slide .item .word h3 {
+    font-size: 3.3em;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 68px;
+}
+
+#slider .slide .item .word h4 {
+    color: white;
+    margin: 1em 0 1.5em;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+#slider .slide .item .word a {
+    border: 2px solid white;
+    border-radius: 0px;
+    padding: 11px 30px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+
+/* navigation button Start*/
+
+#slider .navigation {
+    position: absolute;
+    top: 45%;
+    color: white;
+    font-size: 30px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#slider .navigation:hover {
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+#slider .right {
+    right: 10px;
+}
+
+#slider .left {
+    left: 10px;
+    display: none;
+}
+
+
+/* navigation button End*/
+
+
+/* navba Start */
+
+nav {
+    position: relative;
+    z-index: 1;
+    padding: 5px 0;
+    border-bottom: 1px solid white;
+}
+
+nav img {
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    color: white;
+}
+
+nav ul {
+    padding: 15px 0;
+}
+
+nav ul li a {
+    text-decoration: none !important;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 10px 13px;
+    font-weight: 400;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+nav ul li a:hover {
+    color: inherit;
+}
+
+nav ul li .book {
+    background: #047ffc;
+    padding: 10px 25px;
+    display: block;
+    margin-top: -7px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+
+/* navba End */
